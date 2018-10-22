@@ -54,7 +54,7 @@
 
         <div class="row shadow p-3 bg-white rounded mt-4" id="card">
           <div class="col-md-4">
-            <a href=""><img src="https://png.icons8.com/ios/230/cccccc/web.png"></a>
+            <a target='_blank' href="https://vue-authentication-73b90.firebaseapp.com/"><img src="https://png.icons8.com/ios/230/cccccc/web.png"></a>
           </div>
           <div class="col-md-8 px-3">
             <div class="card-block px-3 pt-4">
