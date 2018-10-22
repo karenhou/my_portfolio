@@ -48,7 +48,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h1 class="mt-5" id="projectTitle">Project</h1>
+            <h1 class="mt-5" id="projectTitle">Work</h1>
           </div>
         </div>
 

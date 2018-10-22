@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "aws s3 sync --acl public-read --delete dist/ s3://myvueportfolio"
   },
   "dependencies": {
     "vue": "^2.5.17",
@@ -18,7 +19,5 @@
     "@vue/cli-service": "^3.0.1",
     "vue-gh-pages": "^1.19.0",
     "vue-template-compiler": "^2.5.17"
-  },
-  "deploy": "node ./node_modules/vue-gh-pages/index.js",
-  "homepage": "https://karenhou.github.io/my_portfolio/"
+  }
 }
