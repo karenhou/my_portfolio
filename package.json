@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "aws s3 sync --acl public-read --delete dist/ s3://myvueportfolio"
+    "deploy": "aws s3 sync --acl public-read --delete dist/ s3://karenhou.com"
   },
   "dependencies": {
     "vue": "^2.5.17",
