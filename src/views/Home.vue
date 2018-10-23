@@ -50,6 +50,19 @@
 
         <div class="row shadow p-3 bg-white rounded mt-4">
           <div class="col-md-4">
+            <a target='_blank' href="https://weighter-fee2d.firebaseapp.com/" rel="noopener"><img src="https://png.icons8.com/ios/230/cccccc/web.png" alt="can't find"></a>
+          </div>
+          <div class="col-md-8 px-3">
+            <div class="card-block px-3 pt-4">
+              <h4 class="card-title">Weighter<i class="far fa-browser"></i></h4>
+              <p class="card-text">Prompt user to use email login/signin so they can save their weights and body fat%. It will then display a chart accordingly</p>
+              <p><img src="../assets/chartjs-logo.svg" style="padding-right: 1em;" alt="api icon" id="chart-js"><img src="https://png.icons8.com/color/50/000000/firebase.png" alt="firebase icon"><img id='vue-icon' src="https://upload.wikimedia.org/wikipedia/commons/5/53/Vue.js_Logo.svg" alt="can't find"><img src="https://png.icons8.com/color/50/cccccc/bootstrap.png" alt="bootstrap icon"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row shadow p-3 bg-white rounded mt-4">
+          <div class="col-md-4">
             <a href=""><img src="https://png.icons8.com/ios/230/cccccc/road-worker.png" alt="can't find"></a>
           </div>
           <div class="col-md-8 px-3 pt-5">
@@ -127,6 +140,10 @@ a:hover {
 }
 
 #vue-icon {
+  width: 4em;
+}
+
+#chart-js {
   width: 4em;
 }
 </style>
